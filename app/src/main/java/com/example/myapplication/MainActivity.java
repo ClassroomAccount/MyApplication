@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         //write nonsense to log
         Log.e("LOG", "barfoo");
         Log.e("LOG", "barfoo");
+        
+        Toast.makeText(this, "Madness", Toast.LENGTH_LONG).show();
 
     }
 }
